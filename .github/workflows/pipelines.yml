@@ -1,0 +1,14 @@
+name: Deployment Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+        - name: Ejecucion de script
+          run: python prueba.py
+    
