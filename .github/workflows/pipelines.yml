@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
         - name: Ejecucion de script
-          run: python prueba.py
+          run: python2 prueba.py
     
